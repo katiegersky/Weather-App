@@ -1,0 +1,66 @@
+body {
+  margin: 100px;
+  padding: 75px;
+  padding-right: 400px;
+  padding-left: 400px;
+  border: solid;
+  border-style: double;
+  border-radius: 25px;
+  border-spacing: center;
+  border-color: goldenrod;
+  background-color: papayawhip;
+}
+input::placeholder {
+  font-size: 10;
+  font-style: italic;
+}
+.btn.goButton {
+  font-family: "Zilla Slab", serif;
+  font-size: 20;
+  background-color: #0dcaf0;
+  color: black;
+  padding: 2px 4px;
+  margin-bottom: 4px;
+}
+.currentCity {
+  padding-top: 30px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Zilla Slab", serif;
+}
+.currentDay {
+  display: block;
+  position: relative;
+  right: 0px;
+  left: 900px;
+  bottom: 200px;
+  font-size: 30px;
+  font-family: "Zilla Slab", serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Zilla Slab", serif;
+}
+.currentTemp {
+  font-size: 40px;
+  font-family: "Zilla Slab", serif;
+}
+.upcomingDay {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 170px;
+  padding-right: 50px;
+}
+.upcomingTemp {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 170px;
+  padding-right: 50px;
+}
