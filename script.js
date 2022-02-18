@@ -13,21 +13,6 @@ thisDay.innerHTML = `${
   days[now.getDay()]
 }, ${now.getHours()}:${now.getMinutes()}`;
 
-let now = new Date();
-let days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
-let thisDay = document.querySelector("#date");
-thisDay.innerHTML = `${
-  days[now.getDay()]
-}, ${now.getHours()}:${now.getMinutes()}`;
-
 function showCurrentWeather(response) {
   let temperature = Math.round(response.data.main.temp);
   let currentTemp = document.querySelector(".currentTemp");
